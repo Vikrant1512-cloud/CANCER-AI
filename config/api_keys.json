@@ -1,0 +1,38 @@
+{
+    "assistant_name": "CANCER",
+    "user_name": "Vikrant",
+    "gemini_api_key": "GEMINI_API_KEY",
+    "gemini_model": "gemini-2.0-flash",
+    "os_system": "windows",
+    "dashboard": {
+        "port": 8443,
+        "secret_token": "cancer_ai_secure_token_key",
+        "ssl_enabled": true
+    },
+    "voice": {
+        "enabled": true,
+        "rate": 185,
+        "volume": 1.0,
+        "voice_index": 0
+    },
+    "ui": {
+        "primary_color": "#00ffcc",
+        "theme": "dark",
+        "stay_on_top": true,
+        "position_x": 20,
+        "position_y": 20
+    },
+    "features": {
+        "morning_brief_enabled": false,
+        "proactive_monitoring": true,
+        "background_cpu_threshold": 90.0
+    },
+    "plugins_enabled": {
+        "control_media_volume": true,
+        "screen_processor": true,
+        "system_monitor": true,
+        "web_search": true,
+        "browser_control": true
+    },
+    "ui_color": "#00d4ff"
+}
